@@ -1,0 +1,61 @@
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+body{
+    --background-color:#23424A;
+    --button-color:#38CFD9;
+    --font-color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: var(--background-color);
+    padding: 100px;
+    background-image: url(tecnologia.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 400px;
+}
+
+.content{
+    width: 50%;
+    
+}
+
+.text-content{
+    color: var(--font-color);
+}
+
+.title{
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 1.3em;
+    font-weight: 100;
+    margin-bottom: 5em;
+}
+
+.button{
+    background-color: var(--button-color);
+    color: var(--background-color);
+    font-weight: 500;
+    font-size: .8em;
+    padding: .8em 2em;
+    border-radius: .8em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.slogan{
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 400;
+    font-size: 1.8em;
+    line-height: 1px;
+    letter-spacing: 10px;
+}
